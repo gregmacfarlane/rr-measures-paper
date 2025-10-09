@@ -1,0 +1,90 @@
+---
+title: |
+  Towards Accelerating Transportation Research:  Measuring the Practice of Open Science 
+#subtitle: 
+author:
+  - name: Junyi Ji
+  - name: Ruth Lu
+  - name: Yongqin Dong
+  - name: Liming Wang
+  - name: Bahman Madadi
+  - name: Silvia Varotto
+  - name: Nicolas Saunier
+  - name: Gregory S. Macfarlane
+    affiliations: 
+        - id: byuce
+          name: Brigham Young University
+          department: Civil and Construction Engineering
+  - name: Mostafa Ameli
+  - name: Cathy Wu
+    email: cathywu@mit.edu
+    affiliations:
+        - id: mit 
+          name: Massachusetts Institute of Technology
+          department: Civil and Environmental Engineering
+    attributes:
+        corresponding: true
+abstract: |
+  This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
+keywords: 
+  - Open Science
+  - Large Language Models
+date: last-modified
+bibliography: main.bib
+format:
+  elsevier-pdf:
+    keep-tex: true
+    journal:
+      name: |
+        Transportation Research Part C: Emerging Technologies
+      formatting: review
+      model: 3p # Don't set a model with preprint
+      cite-style: authoryear
+    # commands to render comments from authors
+    include-in-header: 
+      text: |
+        \usepackage{xcolor}
+        \newcommand{\cw}[1]{\textcolor{orange}{#1}}
+        \newcommand{\Junyi}[1]{\textcolor{purple}{#1}}
+        \newcommand{\Ruth}[1]{\textcolor{teal}{#1}}
+        \newcommand{\Greg}[1]{\textcolor{blue}{#1}}
+        \newcommand{\Yongqi}[1]{\textcolor{violet}{#1}}
+        \newcommand{\Linda}[1]{\textcolor{pink}{#1}}
+        \renewcommand\thefootnote{\textcolor{orange}{\arabic{footnote}}}
+        \newcommand{\cwfn}[1]{\footnote{\textcolor{orange}{CW: #1}}}
+        \newcommand{\Junyifn}[1]{\footnote{\textcolor{purple}{Junyi: #1}}}
+---
+
+
+
+# Introduction {#intro}
+
+Open science initiatives have accelerated research progress across many disciplines, including computational science~\cite{peng2011reproducible}, psychology~\cite{open2015estimating}, and statistics~\cite{stodden2014reproducible}. Recently, open science practices have gained increasing recognition in the transportation research community, as reflected by the introduction of data and code availability statements in Transportation Research journals~\cite{trc_guide2025}. Notably, \textit{Transportation Research Part C} explicitly emphasizes open science in its aims and scope, stating that ``Special emphasis is given in open science initiatives and promoting the opening of large-scale datasets that can support transferability and benchmarking of different approaches~\cite{trc_aimsscope2025}.'' However, despite these policy advancements, the extent to which open science practices have been adopted and implemented in transportation research remains largely unexamined. This motivates a systematic measurement of open science practices in transportation research, with a particular focus on the availability of data and code in papers published in Transportation Research journals.\cwfn{Maybe worth including in the motivation: Doing this measurement In a way that is repeatable (not a once-and-done study), or done at scale (many papers) (But why.) \Ruth{Added a sentence about this, I put down a possible reasoning as well.}} Our goal is to understand current practices, identify commonly used tools, and highlight barriers that may hinder broader adoption of open science within the community. We aim to do this in a way that can be repeated at scale to track progress in the field over time, potentially helping to identify persisting issues preventing the sharing of code and data.
+
+The idea of open science \cite{woelfle2011open} is to make scientific knowledge openly available, accessible, and reusable, as defined by the United Nations Educational, Scientific and Cultural Organization (UNESCO)~\cite{unesco_openscience2022}. It further connects to the idea of reproducibility and replicability in science \cite{national2019reproducibility}, where reproducibility refer to the ability to obtain the same results using the same data and methods, while replicability refers to the ability to obtain similar results using different data or methods. Making data and code open is the first and essential step towards achieving reproducibility and replicability, as it allows other researchers to verify and build upon the original work. Thus the primary focus of this article is on availability.
+
+
+
+% \Junyi{[Junyi: I want to highlight the challenge and the opporunity for transportation research here.]}
+Unlike many other fields, transportation research faces unique challenges, which make availability a non-trivial task for the community. Challenges from the practice side
+% \cwfn{Add privacy? Large datasets $\rightarrow$ Data storage challenges? \Ruth{good suggestions, should I try to find sources for these?}} 
+include privacy concerns, the size of datasets, the inherent complexity and variety of transportation systems~\cite{wu_curseVariety2023}, the heterogeneity of data sources~\cite{welch2019big}, the diversity of regional characteristics~\cite{sun2020identifying}, and the need for active collaboration with a wide range of stakeholders~\cite{nie2025brief}, such as government agencies, private companies, and the public. 
+
+
+From a research perspective, transportation research is highly interdisciplinary~\cite{sun2017discovering}, spanning fields such as physics, economics, psychology, computational science, environmental science, and more. This interdisciplinary nature also means that a single problem can be approached from multiple disciplinary perspectives, each bringing unique technical skills. Making data and code openly available enables researchers from different backgrounds to reuse resources, avoid duplicating effort, and focus on advancing solutions. Ultimately, this accelerates research progress and fosters greater collaboration across the community and an open research culture.
+
+Measuring the state of open science practices is itself a complex and resource-intensive endeavor~\cite{stagge2019assessing,yang2020estimating,youyou2023discipline}. Traditionally, this involves manually reviewing each paper to assess the availability of data and code~\cite{stagge2019assessing}, as well as verifying the validity of provided resources. Such manual processes are labor-intensive, time-consuming, and do not scale efficiently to large corpora of research articles. Moreover, simply reporting the proportion of papers with available data or code offers only a partial view. Important contextual information - such as reasons for non-availability, types of data and code used, and the tools or platforms employed - is often not systematically captured. Without these details, it is difficult to fully understand the barriers and opportunities for advancing open science practices in transportation research.
+
+To tackle these challenges, this article examines the state of open science practices in transportation research by mining the full-text of the publications in Transportation Research journals and leveraging \cw{both bibliometric approaches and} Large Language Models (LLMs) to automatically extract features related to data and code availability. We focus on the following research questions:
+
+# Related Work
+
+# Data
+
+## Automatic Feature Extraction
+
+## Agreement Analysis
+
+# Analysis
+
+# 
