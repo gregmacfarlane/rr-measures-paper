@@ -1,0 +1,406 @@
+dataset_url,dataset_domain,dataset_type,source_category,n_papers,first_year_used,last_year_used,regions,regions_alt,papers_is_data_used_true,regions_used,is_doi_link,is_github,is_open_repo_domain
+https://10.13130/RD_UNIMI/JEA5XX,10.13130,other,other_web,1,2023,2023,['Europe'],['Italy'],1,['Europe'],FALSE,FALSE,FALSE
+https://10.17605/OSF.IO/JQ37Y,10.17605,other,other_web,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,FALSE
+https://10.17632/g73pbyprm5.1,10.17632,other,other_web,1,2022,2022,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,FALSE
+https://10.17632/p9c8rnjsyh.1,10.17632,other,other_web,1,2024,2024,['Asia'],['India'],1,['Asia'],FALSE,FALSE,FALSE
+https://10.17632/tn4xtwh835.2,10.17632,other,other_web,1,2023,2023,['South America'],['Chile'],1,['South America'],FALSE,FALSE,FALSE
+https://10.5281/zenodo.8363461,10.5281,other,other_web,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,FALSE
+https://10.7282/00000369,10.7282,other,other_web,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://asu-trans-ai-lab.github.io/web/index.html,asu-trans-ai-lab.github.io,other,other_web,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://bit.ly/3VHdIJM,bit.ly,other,other_web,1,2024,2024,['Asia'],['Japan'],1,['Asia'],FALSE,FALSE,FALSE
+https://bridges.monash.edu/articles/Australian_Parked_Bicycle_Geometry_Database/12228029,bridges.monash.edu,other,university_repo,1,2020,2020,['Oceania'],['Australia'],1,['Oceania'],FALSE,FALSE,FALSE
+https://clusters.recherche.enac.fr,clusters.recherche.enac.fr,other,other_web,1,2020,2020,['Asia'],['China'],1,['Asia'],FALSE,FALSE,FALSE
+https://covidfuture.org/data,covidfuture.org,other,ngo_nonprofit_org,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://data.4tu.nl/articles/software/A_model_for_modifying_the_public_transport_service_patterns_to_account_for_the_imposed_COVID-19_capacity/13383146,data.4tu.nl,other,other_web,1,2021,2021,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,FALSE
+https://data.4tu.nl/datasets/141522d5-84a8-4ec7-a362-d01ef2c75b7a,data.4tu.nl,other,other_web,1,2024,2024,['Europe'],['Belgium'],1,['Europe'],FALSE,FALSE,FALSE
+https://data.4tu.nl/datasets/ea9f1238-0cc8-47ba-b8c6-3e0846fb8d19,data.4tu.nl,other,other_web,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,FALSE
+https://data.bris.ac.uk/data/dataset/00000000000000000000,data.bris.ac.uk,other,university_repo,1,2021,2021,['Europe'],['Ukraine'],1,['Europe'],FALSE,FALSE,FALSE
+https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p,data.cityofchicago.org,other,ngo_nonprofit_org,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://data.europa.eu/89h/9702c950-c80f-4d2f-982f-44d06ea0009f,data.europa.eu,other,gov_open_data,1,2021,2021,['Europe'],['Switzerland'],1,['Europe'],FALSE,FALSE,FALSE
+https://data.gesis.org/sharing,data.gesis.org,other,ngo_nonprofit_org,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,FALSE
+https://data.louisville.ky.gov/dataset/dockless-vehicles/resource/e36546f6-888b-4e66-8a87-9b68cab471e6,data.louisville.ky.gov,other,gov_open_data,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://data.mendeley.com/datasets/j36zgxnc5p/2,data.mendeley.com,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,TRUE
+https://data.mendeley.com/datasets/k3f9h7y78v/1,data.mendeley.com,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://data.mendeley.com/datasets/kszst8ssd2/3,data.mendeley.com,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Norway'],1,['Europe'],FALSE,FALSE,TRUE
+https://data.mendeley.com/datasets/kwx3f9p9x2/1,data.mendeley.com,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Switzerland'],1,['Europe'],FALSE,FALSE,TRUE
+https://data.mendeley.com/datasets/trwyhf453c/draft,data.mendeley.com,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,TRUE
+https://data.mendeley.com/datasets/wfn2c3437n/2,data.mendeley.com,open_repo,open_repo_doi,1,2022,2022,['Oceania'],['Australia'],1,['Oceania'],FALSE,FALSE,TRUE
+https://data.mendeley.com/datasets/xf5cvrkwps/3,data.mendeley.com,open_repo,open_repo_doi,1,2021,2021,['Europe'],['Norway'],1,['Europe'],FALSE,FALSE,TRUE
+https://data.mendeley.com/datasets/xt69cnwh56/1,data.mendeley.com,open_repo,open_repo_doi,1,2024,2024,['Europe'],['United Kingdom'],1,['Europe'],FALSE,FALSE,TRUE
+https://data.mendeley.com/datasets/ygmkvxxtsw/2,data.mendeley.com,open_repo,open_repo_doi,1,2019,2019,['Europe'],['Ukraine'],1,['Europe'],FALSE,FALSE,TRUE
+https://data.mendeley.com/datasets/z4kdp3k6dp/1,data.mendeley.com,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://data.researchdatafinder.qut.edu.au/dataset/bluetooth-od-data,data.researchdatafinder.qut.edu.au,other,other_web,1,2021,2021,['Oceania'],['Australia'],1,['Oceania'],FALSE,FALSE,FALSE
+https://data.townofcary.org/explore/dataset/cassi-in-cary-s-bond-park-rider-survey/information,data.townofcary.org,other,ngo_nonprofit_org,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajector/8ect-6jqj,data.transportation.gov,other,gov_open_data,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,FALSE,FALSE
+https://data.world/ride-austin/ride-austin-june-6-april-13,data.world,other,other_web,1,2019,2019,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://datadryad.org/stash/dataset/doi:10.5061/dryad.rv15dv4f0,datadryad.org,other,ngo_nonprofit_org,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://datasets.vicomtech.org/di21-seafront/readme.txt,datasets.vicomtech.org,other,ngo_nonprofit_org,1,2023,2023,['Europe'],['Spain'],1,['Europe'],FALSE,FALSE,FALSE
+https://datasketch.github.io/mobility-actions,datasketch.github.io,other,other_web,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://dataverse.unc.edu/dataset.xhtml,dataverse.unc.edu,other,university_repo,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://doi.org/10.1016/j.tra.2019.1True07,doi.org,open_repo,open_repo_doi,1,2020,2020,['North America'],['Canada'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.1016/j.trc.2021.103305,doi.org,open_repo,open_repo_doi,1,2021,2021,['Europe'],['Italy'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.1016/j.trd.2020.102468,doi.org,open_repo,open_repo_doi,1,2020,2020,['Europe'],['Germany'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.1016/j.trd.2021.102713,doi.org,open_repo,open_repo_doi,1,2021,2021,['Europe'],['Germany'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.1016/j.trd.2023.103829,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['France'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.1016/j.trf.202TrueTrue01,doi.org,open_repo,open_repo_doi,1,2021,2021,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.1016/j.trip.2024.101192,doi.org,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.15695/vudata.cee.2,doi.org,open_repo,open_repo_doi,1,2019,2019,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.17605/OSF.IO/8JE5C,doi.org,open_repo,open_repo_doi,1,2019,2019,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17605/OSF.IO/DE8KM,doi.org,open_repo,open_repo_doi,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17605/OSF.IO/J7FYS,doi.org,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Germany'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17605/osf.io/t6gjh,doi.org,open_repo,open_repo_doi,1,2021,2021,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.17632/f38zrhc2k7.1,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Spain'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17632/r49tcwnyb6.1,doi.org,open_repo,open_repo_doi,1,2024,2024,['Asia'],['Japan'],1,['Asia'],TRUE,FALSE,TRUE
+https://doi.org/10.17632/tfkgpmgf9t.1,doi.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Austria'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17632/xt69cnwh56.1,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['United Kingdom'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17635/lancaster/researchdata/634,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['United Kingdom'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17639/nott.7133,doi.org,open_repo,open_repo_doi,1,2021,2021,['Europe'],['United Kingdom'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17863/CAM.57364,doi.org,open_repo,open_repo_doi,1,2020,2020,['Europe'],['Ukraine'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17863/CAM.63690by,doi.org,open_repo,open_repo_doi,1,2021,2021,['Europe'],['Ukraine'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17863/CAM.81748,doi.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Ukraine'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.17863/CAM.85777,doi.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Ukraine'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.24406/fordatis/11,doi.org,open_repo,open_repo_doi,1,2021,2021,['Europe'],['Germany'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.25338/B8035D,doi.org,open_repo,open_repo_doi,1,2024,2024,['Asia'],['Afghanistan'],1,['Asia'],TRUE,FALSE,TRUE
+https://doi.org/10.25820/data.006124,doi.org,open_repo,open_repo_doi,1,2024,2024,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.32866/001c.75441,doi.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/14096067,doi.org,open_repo,open_repo_doi,1,2021,2021,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/14483220,doi.org,open_repo,open_repo_doi,1,2021,2021,['Europe'],['Germany'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/16866709,doi.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/21069820,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/21952685,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/22202389.v1,doi.org,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/3ad2db22-ea82-4436-8df5-ebbbdb4aeec6,doi.org,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/6dfe7bd5-16f7-4e8d-9ab7-f8203b902310,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/777220e4-9a78-4653-8780-89c2572f6c81,doi.org,open_repo,open_repo_doi,1,2024,2024,['Oceania'],['Australia'],1,['Oceania'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/a59fcc0f-4603-490a-b0b8-8b2287141e30,doi.org,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/e4324d0c-2a82-4f03-8cbb-64dd207cd522,doi.org,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/f1272944-9b3d-480f-a37a-b41d972aec7d,doi.org,open_repo,open_repo_doi,1,2024,2024,['South America'],['Brazil'],1,['South America'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/uuid:5725add4-7fe8-41d1-a452-b1fc011e0bae,doi.org,open_repo,open_repo_doi,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/uuid:994f0ab2-0fa2-493f-88ad-fbf4eaaf470e,doi.org,open_repo,open_repo_doi,1,2019,2019,['Asia'],['Afghanistan'],1,['Asia'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/uuid:a1f0ad0f-0033-431f-8a90-0efcae37dd6a,doi.org,open_repo,open_repo_doi,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.4121/uuid:e6560568-4203-43c5-9fdb-a91bc5e2cee4,doi.org,open_repo,open_repo_doi,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.48328/tudatalib-1030,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Germany'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.48328/tudatalib-800,doi.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Germany'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/ZENODO.7410114,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Sweden'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.10552812,doi.org,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Spain'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.1205229,doi.org,open_repo,open_repo_doi,1,2019,2019,['Asia'],['China'],1,['Asia'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.2572764,doi.org,open_repo,open_repo_doi,1,2019,2019,['Europe'],['Denmark'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.2658117,doi.org,open_repo,open_repo_doi,1,2019,2019,['Europe'],['France'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.3258904,doi.org,open_repo,open_repo_doi,1,2020,2020,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.3365464,doi.org,open_repo,open_repo_doi,1,2019,2019,['Asia'],['China'],1,['Asia'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.3661118,doi.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Italy'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.3939792,doi.org,open_repo,open_repo_doi,1,2021,2021,['North America'],['Canada'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.5107737,doi.org,open_repo,open_repo_doi,2,2022,2023,['North America'],['United States'],2,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.5984628,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.6011886,doi.org,open_repo,open_repo_doi,1,2022,2022,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.6587266,doi.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Netherlands'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.7180085,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Denmark'],0,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.7309183,doi.org,open_repo,open_repo_doi,1,2023,2023,['South America'],['Brazil'],1,['South America'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.7319988,doi.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.7426506,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Switzerland'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.7549847,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Sweden'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.5281/zenodo.8125656,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Sweden'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.6084/m9.figshare.13171862,doi.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.6084/m9.figshare.20311812.v2,doi.org,open_repo,open_repo_doi,1,2023,2023,['South America'],['Peru'],1,['South America'],TRUE,FALSE,TRUE
+https://doi.org/10.6084/m9.figshare.24231706,doi.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Switzerland'],1,['Europe'],TRUE,FALSE,TRUE
+https://doi.org/10.7282/00000164,doi.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.7282/00000321,doi.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.7282/00000346,doi.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.7282/00000347,doi.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.7910/DVN/HNHJHU,doi.org,open_repo,open_repo_doi,1,2021,2021,['South America'],['Brazil'],1,['South America'],TRUE,FALSE,TRUE
+https://doi.org/10.7910/DVN/KA5HJ3,doi.org,open_repo,open_repo_doi,1,2024,2024,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.7910/DVN/UOAKTM,doi.org,open_repo,open_repo_doi,1,2023,2023,['Asia'],['China'],1,['Asia'],TRUE,FALSE,TRUE
+https://doi.org/10.7910/DVN/VGMDPC,doi.org,open_repo,open_repo_doi,1,2020,2020,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/10.7910/DVN/ZTFPTB,doi.org,open_repo,open_repo_doi,1,2024,2024,['North America'],['United States'],1,['North America'],TRUE,FALSE,TRUE
+https://doi.org/http:/doi.org/10.5281/zenodo.3731284,doi.org,open_repo,open_repo_doi,1,2021,2021,['Europe'],['Italy'],1,['Europe'],TRUE,FALSE,TRUE
+https://drive.google.com/drive/folders/1FuZUaS85xEzs7wZIvm0KsKC8zOiZMPAj,drive.google.com,other,other_web,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,FALSE,FALSE
+https://dw.tandoncsmart.com/dataset/synthetic-population,dw.tandoncsmart.com,other,other_web,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://dx.doi.org/10.17605/OSF.IO/VA5KR,dx.doi.org,open_repo,open_repo_doi,1,2019,2019,['Europe'],['United Kingdom'],1,['Europe'],FALSE,FALSE,TRUE
+https://dx.doi.org/10.17632/t9p23k3pyn.3,dx.doi.org,open_repo,open_repo_doi,1,2022,2022,['Asia'],['Japan'],1,['Asia'],FALSE,FALSE,TRUE
+https://dx.doi.org/10.5255/UKDA-SN-854723,dx.doi.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['Canada'],1,['North America'],FALSE,FALSE,TRUE
+https://dx.doi.org/10.7910/DVN/GZMBJG,dx.doi.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://enac.hal.science/hal-04532626,enac.hal.science,other,other_web,1,2024,2024,['Europe'],['France'],1,['Europe'],FALSE,FALSE,FALSE
+https://erikamsramos.github.io/carsharing,erikamsramos.github.io,other,other_web,1,2023,2023,['Europe'],['Sweden'],1,['Europe'],FALSE,FALSE,FALSE
+https://figshare.com/articles/Ciclists_survey_in_Puerto_Madryn_2017/11886909.v2,figshare.com,open_repo,open_repo_doi,1,2021,2021,['South America'],['Argentina'],1,['South America'],FALSE,FALSE,TRUE
+https://figshare.com/articles/Cyclists_mobility_survey_in_Puerto_Madryn_2019/11886933.v1,figshare.com,open_repo,open_repo_doi,1,2021,2021,['South America'],['Argentina'],1,['South America'],FALSE,FALSE,TRUE
+https://figshare.com/articles/dataset/EPOS-based_Plans_for_Drones/21432804,figshare.com,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Ukraine'],1,['Europe'],FALSE,FALSE,TRUE
+https://figshare.com/articles/dataset/Reference_data_sets_for_detection_and_identification_of_significant_events_in_historical_aircraft_trajectory_data/7500407,figshare.com,open_repo,open_repo_doi,1,2020,2020,['Europe'],['France'],1,['Europe'],FALSE,FALSE,TRUE
+https://figshare.com/s/e1631bc804deed885d43,figshare.com,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,TRUE
+https://fordatis.fraunhofer.de/handle/fordatis/92,fordatis.fraunhofer.de,other,other_web,1,2021,2021,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,FALSE
+https://fprodrigues.com/amortized-mxl,fprodrigues.com,other,other_web,1,2022,2022,['Europe'],['Denmark'],1,['Europe'],FALSE,FALSE,FALSE
+https://gitfront.io/r/user-2155396/0d36a5b7ee124a4115e8f5f4fbba3483540935fe/ZA_Paper_Code,gitfront.io,other,other_web,1,2022,2022,['Oceania'],['Australia'],1,['Oceania'],FALSE,FALSE,FALSE
+https://github.com/...,github.com,code_host,code_host,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/AICPS/LQM_traffic_sec_official,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/Aircraft-Operations-Lab/roc,github.com,code_host,code_host,1,2024,2024,['Europe'],['Spain'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/AliMaurenne/Microeconomic-model-of-ridesourcing-.git,github.com,code_host,code_host,1,2024,2024,['Europe'],['Spain'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/BSifringer/EnhancedDCM,github.com,code_host,code_host,1,2020,2020,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/BUILTNYU,github.com,code_host,code_host,2,2019,2020,"['Europe', 'North America']","['Luxembourg', 'United States']",2,"['Europe', 'North America']",FALSE,TRUE,FALSE
+https://github.com/BUILTNYU/PDPSET,github.com,code_host,code_host,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/BUILTNYU/ridepooling-with-transfers,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/BUILTNYU/transit-data-game,github.com,code_host,code_host,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/CATS-Lab,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/CATS-Lab-USF,github.com,code_host,code_host,2,2021,2021,['North America'],['United States'],2,['North America'],FALSE,TRUE,FALSE
+https://github.com/CATS-Lab-USF/HIGH-Sim,github.com,code_host,code_host,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/Cangokalp,github.com,code_host,code_host,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/DanieleGioia/PerishableMEC,github.com,code_host,code_host,1,2023,2023,['Europe'],['Italy'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/DimVlachogiannis/HumanLight.git,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/DrKeHan/DTD,github.com,code_host,code_host,1,2020,2020,['Europe'],['United Kingdom'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/FengYinLeo/PGI-SDMI,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/FinestStone/AV-Interactions-City-Traffic,github.com,code_host,code_host,1,2022,2022,['North America'],['Canada'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/GretaGalliani/dynamic-OD-estimation-railway-network,github.com,code_host,code_host,1,2024,2024,['Europe'],['Italy'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/HaoZhouGT/openpilot,github.com,code_host,code_host,2,2022,2022,['North America'],['United States'],2,['North America'],FALSE,TRUE,FALSE
+https://github.com/HaziqRazali/Pedestrian-Intention-Prediction,github.com,code_host,code_host,1,2021,2021,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/HillelBarGera/TrafficAssignmentData,github.com,code_host,code_host,1,2020,2020,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/HossseinMoradi/Project2,github.com,code_host,code_host,1,2022,2022,['Europe'],['Belgium'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/Ifsttar/NoiseModelling,github.com,code_host,code_host,1,2021,2021,['Europe'],['France'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/Jimmy-Ke404/ORHP,github.com,code_host,code_host,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/JoseAngelMartinB/prediction-behavioural-analysis-ml-travel-mode-choice,github.com,code_host,code_host,1,2023,2023,['Europe'],['Spain'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/JusteRaimbault/EnergyPriceAt,github.com,code_host,code_host,1,2020,2020,['Europe'],['France'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/KGkiotsalitis/bus-dispatching-in-rolling-horizons,github.com,code_host,code_host,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/Kaimaoge/SUMO-DVSL,github.com,code_host,code_host,1,2020,2020,['North America'],['Canada'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/Khoshkhah/NRTCalib,github.com,code_host,code_host,1,2023,2023,['Europe'],['Sweden'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/LauraFrankRWTH/CMaaS_Frank_et_al,github.com,code_host,code_host,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/LauraFrankRWTH/IntegratedCarSharing,github.com,code_host,code_host,1,2023,2023,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/LehmannJonas/2E-MT-VRP-PTW-Instances,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/LiBiyue/MAST-GNN,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/LiTrans/BSMD,github.com,code_host,code_host,1,2020,2020,['North America'],['Canada'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/LingxiaoWu2021/RFDRM,github.com,code_host,code_host,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/Lucky-Fan/GP_TSE,github.com,code_host,code_host,1,2024,2024,['North America'],['Canada'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/MYL23/MASO-MSF,github.com,code_host,code_host,1,2023,2023,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/MarWaltz/TUD_RL,github.com,code_host,code_host,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/MartinLHazelton/transportation,github.com,code_host,code_host,1,2022,2022,['Oceania'],['New Zealand'],0,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/MeixinZhu/Velocity_control,github.com,code_host,code_host,1,2020,2020,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/Milad-Haghani/Decision-making-of-individuals,github.com,code_host,code_host,1,2024,2024,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/Milad-Haghani/Physical-movement-of-individuals,github.com,code_host,code_host,1,2024,2024,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/MoritzRuf/IntegratedCYPlanningInstances,github.com,code_host,code_host,1,2021,2021,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/NUS-DBE/Pretrain-Finetune-safety-climate,github.com,code_host,code_host,1,2024,2024,['Asia'],['Singapore'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/Pascal-Jansen/VisualizingAutomatedVehicleFunctionalities,github.com,code_host,code_host,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/PrithviBhatB/MOGBHS---Code-Experiment-Results,github.com,code_host,code_host,1,2024,2024,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/QHS2020/TMS,github.com,code_host,code_host,1,2020,2020,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/RadetzkyLi/3P-MSPointNet,github.com,code_host,code_host,1,2023,2023,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/Rise-group/databe_cyclists_medellin.git,github.com,code_host,code_host,1,2020,2020,['South America'],['Colombia'],1,['South America'],FALSE,TRUE,FALSE
+https://github.com/RomainLITUD/DGCN_traffic_forecasting,github.com,code_host,code_host,1,2021,2021,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/RomainLITUD/conflict_resolution_dataset,github.com,code_host,code_host,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/Sangen-Hu/Bus-stop-Simulation,github.com,code_host,code_host,1,2023,2023,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/Shenglin807/SARP_RL_Dataset/tree/master,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/SimonHilpert/KlimaSchiff,github.com,code_host,code_host,1,2023,2023,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/The-Ahmad/explainable_anns_for_travel_demand_analysis,github.com,code_host,code_host,1,2021,2021,['Asia'],['Saudi Arabia'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/TheYuanLiao/synthetic-sweden,github.com,code_host,code_host,1,2023,2023,['Europe'],['Sweden'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/UTEL-UIUC/TrafficStability,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/UoW-ATM/Mercury,github.com,code_host,code_host,1,2024,2024,['Europe'],['Denmark'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/Vadermit/TransPAI,github.com,code_host,code_host,1,2021,2021,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/Xuan-1998/LPSim,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/YangmingZhou/SoftCluCARP,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/YaoYuBJTU/ADMM_Python,github.com,code_host,code_host,1,2019,2019,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/Yifanny/Generative_CF_Model_Conditioned_On_DS.git,github.com,code_host,code_host,1,2022,2022,['Asia'],['Hong Kong'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/Yubin-Liu/Hybrid-Q-Learning-Network-Approach-for-MPLP.git,github.com,code_host,code_host,1,2023,2023,['Europe'],['Ukraine'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/ZJU2021/STAN,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/ZiyuanGu/network-bi-partitioning,github.com,code_host,code_host,1,2019,2019,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/aberke/drones-consumer-privacy,github.com,code_host,code_host,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/amillb/pgMapMatch,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/ashishbhaskar/MCMD,github.com,code_host,code_host,1,2024,2024,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/asu-trans-ai-lab/CAMLite,github.com,code_host,code_host,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/asu-trans-ai-lab/Integrated_modeling_GMNS/tree/main/examples/United_States_network,github.com,code_host,code_host,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/availabs/MTA_Subway_SIRI_Server,github.com,code_host,code_host,1,2019,2019,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/bazilinskyy/coupled-sim,github.com,code_host,code_host,1,2021,2021,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/briandm/physical-internet,github.com,code_host,code_host,1,2022,2022,['Europe'],['France'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/bstabler/TransportationNetworks,github.com,code_host,code_host,1,2021,2021,['Europe'],['Ukraine'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/bugracnr/TRC-INSTANCES,github.com,code_host,code_host,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/burnsaar/Parking_Slot_Assignment_Problem-Public,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/ciupava/TPI,github.com,code_host,code_host,1,2022,2022,['Asia'],['Israel'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/cjsyzwsh/dnn-for-economic-information.git,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/csipetas/MixedFleetsinFlexibleTransport.git,github.com,code_host,code_host,1,2023,2023,['Europe'],['Finland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/danlegend5/FitFun,github.com,code_host,code_host,1,2023,2023,['Asia'],['United Arab Emirates'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/davidrey123/DARP,github.com,code_host,code_host,1,2022,2022,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/deborahmit/TasteNet-MNL,github.com,code_host,code_host,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/desjae/AST-Framing-Analysis-Ontario,github.com,code_host,code_host,1,2024,2024,['North America'],['Canada'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/dkouzoup/ms-eetc,github.com,code_host,code_host,1,2023,2023,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/ekinugurel/GPSImpute,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/epan-utbm/Moving-Object-Detection-Dataset,github.com,code_host,code_host,1,2023,2023,['Europe'],['France'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/epan-utbm/Semantic-Aware-Object-Identification-in-Urban-Driving-Scenarios,github.com,code_host,code_host,1,2023,2023,['Europe'],['France'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/eqasim-org/ile-de-france/tree/v1.2.0,github.com,code_host,code_host,1,2021,2021,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/ethz-coss/calm_rl,github.com,code_host,code_host,1,2024,2024,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/ethz-coss/voting_traffic,github.com,code_host,code_host,1,2024,2024,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/falcopt/FSPD,github.com,code_host,code_host,1,2024,2024,['Europe'],['Italy'],0,['Europe'],FALSE,TRUE,FALSE
+https://github.com/feng-jings/LDTmodel,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/futuremobilitylabariel/EnvironmentModel,github.com,code_host,code_host,1,2023,2023,['Asia'],['Israel'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/georgiakouy/COVID-19,github.com,code_host,code_host,1,2020,2020,['Europe'],['United Kingdom'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/ghirte/WorkingFromCar,github.com,code_host,code_host,1,2023,2023,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/giovanni-cal/future-transit,github.com,code_host,code_host,1,2023,2023,['Europe'],['Italy'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/goaheand/AdapGL-pytorch,github.com,code_host,code_host,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/google-research/google-research/tree/master/simulation_research,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],0,['North America'],FALSE,TRUE,FALSE
+https://github.com/gsfeir/GP-LCCM,github.com,code_host,code_host,1,2022,2022,['Europe'],['Denmark'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/hkujy/CapacitedMNDP,github.com,code_host,code_host,1,2021,2021,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/hkujy/ISTTT24Data,github.com,code_host,code_host,1,2021,2021,['Europe'],['Denmark'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/humnetlab/BikesBogota,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/hututake2011/Mixed-Fleet-Last-Mile-Delivery,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/ibatur/atus_heat_paper,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/ioaar/Interpretable-Embeddings-MNL,github.com,code_host,code_host,1,2023,2023,['Europe'],['Denmark'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/ipeaGIT/gtfs2emis,github.com,code_host,code_host,1,2023,2023,['South America'],['Brazil'],1,['South America'],FALSE,TRUE,FALSE
+https://github.com/ivangipa/FirstMile,github.com,code_host,code_host,1,2022,2022,['Europe'],['Spain'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/jasperverschuur/Port_Disruption_database,github.com,code_host,code_host,1,2020,2020,['Europe'],['United Kingdom'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/jcpinap/DTSP-DR,github.com,code_host,code_host,1,2024,2024,['South America'],['Chile'],1,['South America'],FALSE,TRUE,FALSE
+https://github.com/jhZzz021/The-program-for-our-work.git,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/jiawlu/CAMLite,github.com,code_host,code_host,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/jiawlu/Traffic_State_Estimation-Computational_Graph,github.com,code_host,code_host,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/jimioke/mitei-prototype-cities,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/joeyleehk/IrConv-LSTM,github.com,code_host,code_host,1,2023,2023,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/jpsaldanha/inventoRy,github.com,code_host,code_host,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/junzis/acsmc,github.com,code_host,code_host,1,2019,2019,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/junzis/openap,github.com,code_host,code_host,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/junzis/wrap,github.com,code_host,code_host,1,2019,2019,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/jweckstr/journey-diversity-scripts,github.com,code_host,code_host,1,2021,2021,['Europe'],['Finland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/keesvanginkel/europe_flood_road_disruption,github.com,code_host,code_host,1,2022,2022,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/lgraff/nomad,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/liangchunyaobing/RCM-AIRL,github.com,code_host,code_host,1,2023,2023,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/liyaguang/DCRNN,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/lpaparusso/DriVe-forecast,github.com,code_host,code_host,1,2023,2023,['Europe'],['Italy'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/ltbstudy/MAB-HH-test-data.git,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/luansenda/congestion_propagation_inference,github.com,code_host,code_host,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/lucas-spangher/agent-based-EV-sim,github.com,code_host,code_host,1,2019,2019,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/manserpa/minibus,github.com,code_host,code_host,1,2020,2020,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/mcgill-smart-transport/circDMDsp,github.com,code_host,code_host,1,2023,2023,['North America'],['Canada'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/meeadsaberi/dynamel,github.com,code_host,code_host,1,2021,2021,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/mie-lab/location-prediction,github.com,code_host,code_host,1,2023,2023,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/mie-lab/train_delay,github.com,code_host,code_host,1,2024,2024,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/mkatliar/omsf,github.com,code_host,code_host,1,2019,2019,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/mkilani-dev/scbd,github.com,code_host,code_host,1,2022,2022,['Europe'],['France'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/nyu-cities/parking-simulation,github.com,code_host,code_host,1,2024,2024,['Asia'],['United Arab Emirates'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/omerfarukktu/MSCresilience,github.com,code_host,code_host,1,2023,2023,['Asia'],['Turkey'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/oneoldfriend/MIQP-For-MD-MT-VRP,github.com,code_host,code_host,1,2020,2020,['Asia'],['Singapore'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/openmobilityfoundation/mobility-data-specification,github.com,code_host,code_host,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/optimatorlab/mFSTSP,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],0,['North America'],FALSE,TRUE,FALSE
+https://github.com/osier-hust/SVRP-SPM,github.com,code_host,code_host,1,2020,2020,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/pabloguarda/isuellogit,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/paezha/Accessibility-Sobi-Hamilton,github.com,code_host,code_host,1,2022,2022,['North America'],['Canada'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/paezha/Neighborhood-Perceptions-and-Active-Travel-in-Bangladesh,github.com,code_host,code_host,1,2020,2020,['North America'],['Canada'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/paulvangentcom/heartrate_analysis_Arduino,github.com,code_host,code_host,1,2019,2019,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/paulvangentcom/heartrate_analysis_python,github.com,code_host,code_host,1,2019,2019,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/peterberr/sufficcs_mobility/tree/main/outputs,github.com,code_host,code_host,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/qez008/FND-OT,github.com,code_host,code_host,1,2023,2023,['Europe'],['Norway'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/rafalkucharskipk/ExMAS,github.com,code_host,code_host,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/ramondalmau/Machine-learning-for-ATFM.git,github.com,code_host,code_host,1,2022,2022,['Europe'],['France'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/research-licit/ISTTT2019,github.com,code_host,code_host,1,2020,2020,['Europe'],['France'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/ronan-keane/havsim,github.com,code_host,code_host,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/saeedasadibagloee/Contraflow,github.com,code_host,code_host,1,2019,2019,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/sakithakumarage/hybrid_DODE,github.com,code_host,code_host,1,2023,2023,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/salomonw/contraflow-lane-reversal,github.com,code_host,code_host,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/sancarlim/Explainable-MP/tree/v1.1,github.com,code_host,code_host,1,2023,2023,['Europe'],['Spain'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/siqi-feng/DNN-behavioral-regularity,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/snu-adsl/ddpgcn-dataset,github.com,code_host,code_host,1,2022,2022,['Asia'],"['Korea, Republic Of']",1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/stasmix/popsynth,github.com,code_host,code_host,1,2019,2019,['Europe'],['Denmark'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/sudatta0993/Dynamic-Congestion-Prediction,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/sunnyqywang/demand_image/tree/DHM-AE,github.com,code_host,code_host,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/sysuits/BATF,github.com,code_host,code_host,1,2019,2019,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/to-be-confirmed,github.com,code_host,code_host,1,2020,2020,['Europe'],['United Kingdom'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/tongnie/GNN4Flow,github.com,code_host,code_host,1,2023,2023,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/tongnie/tensor4kriging,github.com,code_host,code_host,1,2023,2023,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/tongnie/tensorlib,github.com,code_host,code_host,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/transp-or/oasis,github.com,code_host,code_host,1,2023,2023,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/tudelft-cns-atm/bluesky,github.com,code_host,code_host,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/uky-transport-data-science/forecastcarddata,github.com,code_host,code_host,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/valentijnstienen/PemPem-paper,github.com,code_host,code_host,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/venktesh22/ExpressLanes_Deep-RL,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/vita-epfl/RRB,github.com,code_host,code_host,1,2021,2021,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/vita-epfl/butterflydetector,github.com,code_host,code_host,1,2023,2023,['Europe'],['Switzerland'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/wagnerfe/xml4urbanformanalysis,github.com,code_host,code_host,1,2022,2022,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://github.com/wangleicuail/EVsharingBasicData,github.com,code_host,code_host,1,2021,2021,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/websense/CIAMpassengers,github.com,code_host,code_host,1,2022,2022,['Oceania'],['Australia'],1,['Oceania'],FALSE,TRUE,FALSE
+https://github.com/wn11-nyu/IRP-Drone,github.com,code_host,code_host,1,2023,2023,['Asia'],['United Arab Emirates'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/wwb00l/CRRFNet,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/xiaoluban/Modeling-Interpretable-Social-Interactions-for-Pedestrian-Trajectory,github.com,code_host,code_host,1,2024,2024,['North America'],['Canada'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/xr2006/AMXL.git,github.com,code_host,code_host,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/yaohandong/HISTORIC-DATA,github.com,code_host,code_host,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/yashpant/FlyByLogic,github.com,code_host,code_host,1,2021,2021,['North America'],['United States'],0,['North America'],FALSE,TRUE,FALSE
+https://github.com/yucelzeynep/A-pure-number-to-assess-congestion-in-pedestrian-crowds,github.com,code_host,code_host,1,2023,2023,['Asia'],['Japan'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/yuki-oyama/fluid-particle-csd,github.com,code_host,code_host,1,2024,2024,['Asia'],['Japan'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/zeonchen/SFMGTL,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/zephyr-data-specs/GMNS,github.com,code_host,code_host,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/zhandongxu/GP_RTAP,github.com,code_host,code_host,1,2024,2024,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/zhangqin635/IntegratedOptimizationMTData.git,github.com,code_host,code_host,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,TRUE,FALSE
+https://github.com/zhengyunhan/Equality-of-Opportunity-Travel-Behavior.git,github.com,code_host,code_host,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,TRUE,FALSE
+https://github.com/zhiyongc/Seattle-Loop-Data,github.com,code_host,code_host,2,2020,2020,['North America'],['United States'],2,['North America'],FALSE,TRUE,FALSE
+https://gitlab.com/eputs/data/fcd-stellenbosch,gitlab.com,code_host,code_host,1,2023,2023,['Africa'],['South Africa'],1,['Africa'],FALSE,FALSE,FALSE
+https://gitlab.in2p3.fr/annaelle.benard/small-roadkill-persistence.git,gitlab.in2p3.fr,other,other_web,1,2024,2024,['Europe'],['France'],1,['Europe'],FALSE,FALSE,FALSE
+https://gogs.univ-littoral.fr/mkilani/scbd,gogs.univ-littoral.fr,other,other_web,1,2022,2022,['Europe'],['France'],1,['Europe'],FALSE,FALSE,FALSE
+https://highways.dot.gov,highways.dot.gov,other,gov_open_data,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://i24motion.org,i24motion.org,other,ngo_nonprofit_org,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://i24motion.org/data,i24motion.org,other,ngo_nonprofit_org,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://inve2st.readthedocs.io/en/latest,inve2st.readthedocs.io,other,other_web,1,2021,2021,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,FALSE
+https://itsforge.net,itsforge.net,other,other_web,1,2019,2019,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://jpsaldanha.shinyapps.io/inventoRy,jpsaldanha.shinyapps.io,other,other_web,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://open-traffic.epfl.ch,open-traffic.epfl.ch,other,other_web,5,2020,2023,['Europe'],['Switzerland'],5,['Europe'],FALSE,FALSE,FALSE
+https://orlib.uqcloud.net,orlib.uqcloud.net,other,other_web,1,2020,2020,['Oceania'],['Australia'],1,['Oceania'],FALSE,FALSE,FALSE
+https://osf.io/2t48x,osf.io,open_repo,open_repo_doi,1,2023,2023,['Asia'],['China'],1,['Asia'],FALSE,FALSE,TRUE
+https://osf.io/3g5jm,osf.io,open_repo,open_repo_doi,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://osf.io/3nk2p,osf.io,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/5d23m,osf.io,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/8q2wb,osf.io,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/92rgp,osf.io,open_repo,open_repo_doi,1,2023,2023,['Asia'],['Indonesia'],1,['Asia'],FALSE,FALSE,TRUE
+https://osf.io/95qj6,osf.io,open_repo,open_repo_doi,1,2022,2022,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://osf.io/b8z6d,osf.io,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Belgium'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/cp9bg,osf.io,open_repo,open_repo_doi,1,2020,2020,['Asia'],['Thailand'],1,['Asia'],FALSE,FALSE,TRUE
+https://osf.io/djxs6,osf.io,open_repo,open_repo_doi,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,FALSE,TRUE
+https://osf.io/dx3fc,osf.io,open_repo,open_repo_doi,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,FALSE,TRUE
+https://osf.io/fd4a7,osf.io,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/h27nz,osf.io,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Ukraine'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/k3cmn,osf.io,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/k9w8q,osf.io,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Ukraine'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/kdr6q,osf.io,open_repo,open_repo_doi,1,2023,2023,['Asia'],"['Korea, Republic Of']",1,['Asia'],FALSE,FALSE,TRUE
+https://osf.io/kq7f5,osf.io,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Hungary'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/n46k5,osf.io,open_repo,open_repo_doi,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://osf.io/p2wme,osf.io,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/p6emd,osf.io,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/qbgpd,osf.io,open_repo,open_repo_doi,1,2019,2019,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://osf.io/qbtgh,osf.io,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Finland'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/r7whj,osf.io,open_repo,open_repo_doi,1,2024,2024,['Europe'],['France'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/rndxz,osf.io,open_repo,open_repo_doi,1,2023,2023,['Oceania'],['Australia'],1,['Oceania'],FALSE,FALSE,TRUE
+https://osf.io/sw8k2,osf.io,open_repo,open_repo_doi,1,2024,2024,['North America'],['Puerto Rico'],1,['North America'],FALSE,FALSE,TRUE
+https://osf.io/sxf4u,osf.io,open_repo,open_repo_doi,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://osf.io/t6sze,osf.io,open_repo,open_repo_doi,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://osf.io/xbhqf,osf.io,open_repo,open_repo_doi,1,2023,2023,['Asia'],['Afghanistan'],1,['Asia'],FALSE,FALSE,TRUE
+https://osf.io/zpktr,osf.io,open_repo,open_repo_doi,1,2024,2024,['Europe'],['France'],1,['Europe'],FALSE,FALSE,TRUE
+https://osf.io/zsep5,osf.io,open_repo,open_repo_doi,1,2021,2021,['Asia'],['Indonesia'],1,['Asia'],FALSE,FALSE,TRUE
+https://osm2gmns.readthedocs.io,osm2gmns.readthedocs.io,other,other_web,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://ped.fz-juelich.de/da/2013crossing90,ped.fz-juelich.de,other,other_web,1,2019,2019,['Europe'],['Ukraine'],1,['Europe'],FALSE,FALSE,FALSE
+https://ped.fz-juelich.de/extda/feliciani2018,ped.fz-juelich.de,other,other_web,1,2020,2020,['Asia'],['Japan'],1,['Asia'],FALSE,FALSE,FALSE
+https://pedbikeinfo.org/resources/resources_details.cfm,pedbikeinfo.org,other,ngo_nonprofit_org,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://pedbikeinfo.org/shiftingstreets,pedbikeinfo.org,other,ngo_nonprofit_org,2,2021,2022,['North America'],['United States'],2,['North America'],FALSE,FALSE,FALSE
+https://pypi.org/project/mcmd,pypi.org,other,ngo_nonprofit_org,1,2024,2024,['Oceania'],['Australia'],1,['Oceania'],FALSE,FALSE,FALSE
+https://pypi.org/project/searchlogit,pypi.org,other,ngo_nonprofit_org,1,2024,2024,['Oceania'],['Australia'],1,['Oceania'],FALSE,FALSE,FALSE
+https://radwege-check.de/report,radwege-check.de,other,other_web,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,FALSE
+https://recherche.enac.fr/~wangrx/gap,recherche.enac.fr,other,other_web,1,2022,2022,['Asia'],['China'],1,['Asia'],FALSE,FALSE,FALSE
+https://researchdata.4tu.nl/en,researchdata.4tu.nl,other,other_web,1,2021,2021,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,FALSE
+https://researchdatafinder.qut.edu.au/display/n1527,researchdatafinder.qut.edu.au,other,other_web,1,2022,2022,['Oceania'],['Australia'],1,['Oceania'],FALSE,FALSE,FALSE
+"https://schmid et al., 2020","schmid et al., 2020",other,other_web,1,2023,2023,['Europe'],['Switzerland'],1,['Europe'],FALSE,FALSE,FALSE
+https://sites.google.com/view/chengchun/instances,sites.google.com,other,other_web,1,2020,2020,['Asia'],['China'],1,['Asia'],FALSE,FALSE,FALSE
+https://sourceforge.net/projects/electric-vehicle-project/files,sourceforge.net,other,other_web,1,2019,2019,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://su.figshare.com,su.figshare.com,other,other_web,1,2024,2024,['Europe'],['Sweden'],1,['Europe'],FALSE,FALSE,FALSE
+https://www.albertschrotenboer.com,albertschrotenboer.com,other,other_web,1,2020,2020,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,FALSE
+https://www.comses.net/codebases/a89fd647-1126-4930-a3f6-a5c5145076b3/releases/True.0,comses.net,other,other_web,1,2020,2020,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,FALSE
+https://www.connectedandautonomoustransport.com/reproducible-research.html,connectedandautonomoustransport.com,other,other_web,1,2021,2021,['Europe'],['Italy'],1,['Europe'],FALSE,FALSE,FALSE
+https://www.covidmobilityworks.org,covidmobilityworks.org,other,ngo_nonprofit_org,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://www.doi.org/10.17605/OSF.IO/6G8VS,doi.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Denmark'],1,['Europe'],TRUE,FALSE,TRUE
+https://www.ece.osu.edu/~coifman/documents,ece.osu.edu,other,university_repo,1,2019,2019,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://www.github.com/datafold-dev/paper_modeling_melburnians,github.com,code_host,code_host,1,2021,2021,['Europe'],['Germany'],1,['Europe'],FALSE,TRUE,FALSE
+https://www.iarai.ac.at/traffic4cast/challenge,iarai.ac.at,other,university_repo,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,FALSE
+https://www.kaggle.com/crissebasbol/lora-packets-received-from-vehicles-in-a-fmcs,kaggle.com,other,benchmark_hub,1,2022,2022,['South America'],['Colombia'],1,['South America'],FALSE,FALSE,FALSE
+https://www.leandro-coelho.com/slot-assignment-and-order-picking,leandro-coelho.com,other,other_web,1,2020,2020,['North America'],['Canada'],1,['North America'],FALSE,FALSE,FALSE
+https://www.mcs.anl.gov/~jlarson/SHSAV,mcs.anl.gov,other,gov_open_data,1,2020,2020,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://www.multitude-project.eu,multitude-project.eu,other,other_web,1,2021,2021,['Europe'],['Italy'],1,['Europe'],FALSE,FALSE,FALSE
+https://www.nrel.gov/transportation/drive-cycle-tool,nrel.gov,other,gov_open_data,1,2021,2021,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://www.researchgate.net/publication/326020738_Observability_Scenarios_1-4,researchgate.net,other,other_web,1,2019,2019,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://www.researchgate.net/publication/332545172_Experiments_on_large_scale_networks_k-best_path_based_observability,researchgate.net,other,other_web,1,2019,2019,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
+https://zenodo.org/badge/latestdoi/636483323,zenodo.org,open_repo,open_repo_doi,1,2024,2024,['Asia'],"['Korea, Republic Of']",1,['Asia'],FALSE,FALSE,TRUE
+https://zenodo.org/doi/10.5281/zenodo.10778028,zenodo.org,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://zenodo.org/record/1205229,zenodo.org,open_repo,open_repo_doi,1,2024,2024,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://zenodo.org/record/5102564,zenodo.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Ireland'],1,['Europe'],FALSE,FALSE,TRUE
+https://zenodo.org/record/5255950,zenodo.org,open_repo,open_repo_doi,1,2022,2022,['Europe'],['Netherlands'],1,['Europe'],FALSE,FALSE,TRUE
+https://zenodo.org/record/5517983,zenodo.org,open_repo,open_repo_doi,1,2023,2023,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://zenodo.org/record/6803956,zenodo.org,open_repo,open_repo_doi,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://zenodo.org/record/6919557,zenodo.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Germany'],1,['Europe'],FALSE,FALSE,TRUE
+https://zenodo.org/record/7019144,zenodo.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Switzerland'],1,['Europe'],FALSE,FALSE,TRUE
+https://zenodo.org/record/7733664,zenodo.org,open_repo,open_repo_doi,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+https://zenodo.org/record/7866504,zenodo.org,open_repo,open_repo_doi,1,2023,2023,['Europe'],['Sweden'],1,['Europe'],FALSE,FALSE,TRUE
+https://zenodo.org/records/8379000,zenodo.org,open_repo,open_repo_doi,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,TRUE
+"https:Acharya, 2022",,other,other_web,1,2024,2024,['North America'],['United States'],1,['North America'],FALSE,FALSE,FALSE
