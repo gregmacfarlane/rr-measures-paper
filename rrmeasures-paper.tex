@@ -108,6 +108,28 @@
 \bibliographystyle{elsarticle-harv}
 
 
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{siunitx}
+
+    \newcolumntype{d}{S[
+      table-align-text-before=false,
+      table-align-text-after=false,
+      input-symbols={-,\*+()}
+    ]}
+  
 \usepackage{xcolor}
 \newcommand{\cw}[1]{\textcolor{orange}{#1}}
 \newcommand{\Junyi}[1]{\textcolor{purple}{#1}}
@@ -118,6 +140,9 @@
 \renewcommand\thefootnote{\textcolor{orange}{\arabic{footnote}}}
 \newcommand{\cwfn}[1]{\footnote{\textcolor{orange}{CW: #1}}}
 \newcommand{\Junyifn}[1]{\footnote{\textcolor{purple}{Junyi: #1}}}
+\usepackage{setspace}
+\AtBeginEnvironment{tblr}{\begin{singlespacing}}
+\AtEndEnvironment{tblr}{\end{singlespacing}}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -212,7 +237,7 @@ Practice of Open Science}
 \author[1]{Gregory S. Macfarlane%
 %
 }
- \ead{gregmacfarlane@byu.edu} 
+
 \author[]{Mostafa Ameli%
 %
 }
@@ -223,8 +248,7 @@ Practice of Open Science}
  \ead{cathywu@mit.edu} 
 
 \affiliation[1]{organization={Brigham Young University, Civil and
-Construction Engineering},addressline={430 Engineering
-Building},city={Provo},postcode={84604},postcodesep={}}
+Construction Engineering},,postcodesep={}}
 \affiliation[2]{organization={Massachusetts Institute of
 Technology, Civil and Environmental Engineering},,postcodesep={}}
 
@@ -265,95 +289,227 @@ tempus elit.
 
 \section{Introduction}\label{intro}
 
-Open science initiatives have accelerated research progress across many
-disciplines, including computational
-science\textasciitilde{}\cite{peng2011reproducible},
-psychology\textasciitilde{}\cite{open2015estimating}, and
-statistics\textasciitilde{}\cite{stodden2014reproducible}. Recently,
-open science practices have gained increasing recognition in the
-transportation research community, as reflected by the introduction of
-data and code availability statements in Transportation Research
-journals\textasciitilde{}\cite{trc_guide2025}. Notably,
-\textit{Transportation Research Part C} explicitly emphasizes open
-science in its aims and scope, stating that ``Special emphasis is given
-in open science initiatives and promoting the opening of large-scale
-datasets that can support transferability and benchmarking of different
-approaches\textasciitilde{}\cite{trc_aimsscope2025}.'\,' However,
-despite these policy advancements, the extent to which open science
-practices have been adopted and implemented in transportation research
-remains largely unexamined. This motivates a systematic measurement of
-open science practices in transportation research, with a particular
-focus on the availability of data and code in papers published in
-Transportation Research
-journals.\cwfn{Maybe worth including in the motivation: Doing this measurement In a way that is repeatable (not a once-and-done study), or done at scale (many papers) (But why.) \Ruth{Added a sentence about this, I put down a possible reasoning as well.}}
-Our goal is to understand current practices, identify commonly used
-tools, and highlight barriers that may hinder broader adoption of open
-science within the community. We aim to do this in a way that can be
-repeated at scale to track progress in the field over time, potentially
-helping to identify persisting issues preventing the sharing of code and
-data.
+I need a citation to keep from getting a latex error, so
+\citet{nosek2015promoting} is a good one.
 
-The idea of open science \cite{woelfle2011open} is to make scientific
-knowledge openly available, accessible, and reusable, as defined by the
-United Nations Educational, Scientific and Cultural Organization
-(UNESCO)\textasciitilde{}\cite{unesco_openscience2022}. It further
-connects to the idea of reproducibility and replicability in science
-\cite{national2019reproducibility}, where reproducibility refer to the
-ability to obtain the same results using the same data and methods,
-while replicability refers to the ability to obtain similar results
-using different data or methods. Making data and code open is the first
-and essential step towards achieving reproducibility and replicability,
-as it allows other researchers to verify and build upon the original
-work. Thus the primary focus of this article is on availability.
+\section{Analysis}\label{analysis}
 
-\%
-\Junyi{[Junyi: I want to highlight the challenge and the opporunity for transportation research here.]}
-Unlike many other fields, transportation research faces unique
-challenges, which make availability a non-trivial task for the
-community. Challenges from the practice side \%
-\cwfn{Add privacy? Large datasets $\rightarrow$ Data storage challenges? \Ruth{good suggestions, should I try to find sources for these?}}
-include privacy concerns, the size of datasets, the inherent complexity
-and variety of transportation
-systems\textasciitilde{}\cite{wu_curseVariety2023}, the heterogeneity of
-data sources\textasciitilde{}\cite{welch2019big}, the diversity of
-regional characteristics\textasciitilde{}\cite{sun2020identifying}, and
-the need for active collaboration with a wide range of
-stakeholders\textasciitilde{}\cite{nie2025brief}, such as government
-agencies, private companies, and the public.
+\subsection{Descriptive statistics and bivariate
+tests}\label{descriptive-statistics-and-bivariate-tests}
 
-From a research perspective, transportation research is highly
-interdisciplinary\textasciitilde{}\cite{sun2017discovering}, spanning
-fields such as physics, economics, psychology, computational science,
-environmental science, and more. This interdisciplinary nature also
-means that a single problem can be approached from multiple disciplinary
-perspectives, each bringing unique technical skills. Making data and
-code openly available enables researchers from different backgrounds to
-reuse resources, avoid duplicating effort, and focus on advancing
-solutions. Ultimately, this accelerates research progress and fosters
-greater collaboration across the community and an open research culture.
+The analysis dataset contains 10 480 papers, processed from all
+full-length articles that were identified as
+\texttt{is\_quantitative\_study} papers). Table~\ref{tbl-descriptives}
+shows descriptive statistics for the dataset, including organized by
+whether the papers made code available. The dataset contains 2 810
+papers with code available, about 5\% of the papers. In total, about
+28\% of the papers cite publicly available data, but only 4\% of the
+papers include a data repository; the remaining 69\% neither cite data
+nor include a repository.
 
-Measuring the state of open science practices is itself a complex and
-resource-intensive
-endeavor\textasciitilde{}\cite{stagge2019assessing,yang2020estimating,youyou2023discipline}.
-Traditionally, this involves manually reviewing each paper to assess the
-availability of data and
-code\textasciitilde{}\cite{stagge2019assessing}, as well as verifying
-the validity of provided resources. Such manual processes are
-labor-intensive, time-consuming, and do not scale efficiently to large
-corpora of research articles. Moreover, simply reporting the proportion
-of papers with available data or code offers only a partial view.
-Important contextual information - such as reasons for non-availability,
-types of data and code used, and the tools or platforms employed - is
-often not systematically captured. Without these details, it is
-difficult to fully understand the barriers and opportunities for
-advancing open science practices in transportation research.
+\begin{table}
 
-To tackle these challenges, this article examines the state of open
-science practices in transportation research by mining the full-text of
-the publications in Transportation Research journals and leveraging
-\cw{both bibliometric approaches and} Large Language Models (LLMs) to
-automatically extract features related to data and code availability. We
-focus on the following research questions:
+\caption{\label{tbl-descriptives}Descriptive Statistics of Data Set}
+
+\centering{
+
+\centering\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{llrrrr}
+\toprule
+\multicolumn{2}{c}{ } & \multicolumn{2}{c}{Code is available (N=528)} & \multicolumn{2}{c}{Code is not available (N=9952)} \\
+\cmidrule(l{3pt}r{3pt}){3-4} \cmidrule(l{3pt}r{3pt}){5-6}
+  &    & Mean & Std. Dev. & Mean & Std. Dev.\\
+\midrule
+Open science score &  & \num{3.4} & \num{1.1} & \num{2.2} & \num{0.6}\\
+Age of paper [years] &  & \num{3.1} & \num{1.7} & \num{3.4} & \num{1.7}\\
+N. tables in paper &  & \num{6.3} & \num{4.6} & \num{6.4} & \num{4.5}\\
+N. figures in paper &  & \num{11.0} & \num{6.5} & \num{8.6} & \num{6.1}\\
+N. references &  & \num{57.3} & \num{21.0} & \num{58.2} & \num{26.9}\\
+N. authors &  & \num{3.8} & \num{1.7} & \num{3.8} & \num{1.7}\\
+Times cited &  & \num{27.2} & \num{42.9} & \num{28.4} & \num{43.2}\\
+Review time [days] &  & \num{268.6} & \num{141.4} & \num{254.3} & \num{148.9}\\
+Page count &  & \num{19.8} & \num{6.6} & \num{18.4} & \num{6.3}\\
+\midrule
+ &  & N & Pct. & N & Pct.\\
+\midrule\\
+Open Access & Not open access & \num{324} & \num{61.4} & \num{7346} & \num{73.8}\\
+ & Open access & \num{204} & \num{38.6} & \num{2606} & \num{26.2}\\
+\midrule
+Data availability & Data is cited or linked & \num{96} & \num{18.2} & \num{2810} & \num{28.2}\\
+ & Data repository and citation & \num{94} & \num{17.8} & \num{14} & \num{0.1}\\
+ & Data repository is available & \num{199} & \num{37.7} & \num{65} & \num{0.7}\\
+ & No repository or citation & \num{139} & \num{26.3} & \num{7063} & \num{71.0}\\
+\midrule
+Journal & Interdisciplinary Perspectives & \num{36} & \num{6.8} & \num{945} & \num{9.5}\\
+ & Part A: Policy and Practice & \num{64} & \num{12.1} & \num{1555} & \num{15.6}\\
+ & Part B: Methodological & \num{67} & \num{12.7} & \num{771} & \num{7.7}\\
+ & Part C: Emerging Technologies & \num{212} & \num{40.2} & \num{1797} & \num{18.1}\\
+ & Part D: Transport and Environment & \num{72} & \num{13.6} & \num{1911} & \num{19.2}\\
+ & Part E: Logistics and Transportation Review & \num{41} & \num{7.8} & \num{1534} & \num{15.4}\\
+ & Part F: Traffic Psychology and Behaviour & \num{36} & \num{6.8} & \num{1439} & \num{14.5}\\
+\midrule
+Region of corr. author & Africa & \num{5} & \num{0.9} & \num{69} & \num{0.7}\\
+ & Asia & \num{118} & \num{22.3} & \num{4398} & \num{44.2}\\
+ & Europe & \num{206} & \num{39.0} & \num{2699} & \num{27.1}\\
+ & North America & \num{156} & \num{29.5} & \num{2074} & \num{20.8}\\
+ & Oceania & \num{27} & \num{5.1} & \num{521} & \num{5.2}\\
+ & South America & \num{16} & \num{3.0} & \num{191} & \num{1.9}\\
+\midrule
+Availability statement & Availability statement is not present & \num{139} & \num{26.3} & \num{7062} & \num{71.0}\\
+ & Availability statement is present & \num{389} & \num{73.7} & \num{2890} & \num{29.0}\\
+\midrule
+Paper topic & Air \& Freight Logistics & \num{2} & \num{0.4} & \num{77} & \num{0.8}\\
+ & Automated Driving \& Human Factors & \num{34} & \num{6.4} & \num{957} & \num{9.6}\\
+ & COVID-19 Impact on Travel \& Activities & \num{17} & \num{3.2} & \num{434} & \num{4.4}\\
+ & Data-Driven Modeling \& Prediction & \num{142} & \num{26.9} & \num{772} & \num{7.8}\\
+ & Driver Behavior \& Safety Risk & \num{10} & \num{1.9} & \num{631} & \num{6.3}\\
+ & Electric Vehicles \& Ride-Sharing & \num{29} & \num{5.5} & \num{372} & \num{3.7}\\
+ & Optimization \& Routing Algorithms & \num{114} & \num{21.6} & \num{1513} & \num{15.2}\\
+ & Public Transit Service \& Demand & \num{29} & \num{5.5} & \num{489} & \num{4.9}\\
+ & Road Infrastructure \& Emergency Management & \num{1} & \num{0.2} & \num{49} & \num{0.5}\\
+ & Social \& Policy Aspects of Mobility & \num{26} & \num{4.9} & \num{862} & \num{8.7}\\
+ & Supply Chain \& Market Strategies & \num{6} & \num{1.1} & \num{775} & \num{7.8}\\
+ & Traffic Flow \& Network Control & \num{45} & \num{8.5} & \num{710} & \num{7.1}\\
+ & Transportation Emissions \& Policy & \num{20} & \num{3.8} & \num{848} & \num{8.5}\\
+ & Travel \& Mode Choice Behavior & \num{28} & \num{5.3} & \num{883} & \num{8.9}\\
+ & Urban Environment \& Active Transport & \num{25} & \num{4.7} & \num{580} & \num{5.8}\\
+\midrule
+Links to code repositories & Link to GitHub & \num{329} & \num{62.3} & \num{4} & \num{0.0}\\
+ & Link to other service & \num{118} & \num{22.3} & \num{5} & \num{0.1}\\
+ & No links & \num{81} & \num{15.3} & \num{9943} & \num{99.9}\\
+\bottomrule
+\end{tabular}}
+
+}
+
+\end{table}%
+
+We conducted a series of initial bivariate statistical tests on the
+dependent variables --- specifically, whether the papers provide code or
+data --- using \(t\)-tests on differences of means when the independent
+variable is numeric, and Pearson \(\chi^2\) tests of independence when
+the independent variable is categorical. The results of these tests
+revealed several statistically significant relationships that guided the
+analysis that follows below. To begin, papers that make code available
+are also more likely to share data (\(\chi^2\) test statistic of 4
+411.71). Newer papers make code available more frequently (\(t\)-test
+5.02), and papers that share data directly tend to be newer than papers
+simply citing existing data (\(t\)-test between data repository and
+links 3.15 ) Papers with corresponding authors in Europe and North
+America are more likely to make data available than papers with authors
+in Asia; the same trend holds for sharing code, with South American
+authors joining the group more likely to share than Asian authors. In
+absolute terms, authors based in Asia still contribute a substantial
+number (\(N=118\)) of code repositories, but their share appears lower
+when expressed as a percentage of the total number of publications from
+the region (\(N=4516\)).
+
+These findings are informative, but they may be the result of correlated
+omitted variables. In a section below we provide a choice model of data
+and code availability that can accommodate the simultaneous influence of
+multiple variables. Additionally, the analyses assume that the data is
+accurate, which the above agreement analysis indicated is not entirely
+true.
+
+\subsection{Incentives for
+availability}\label{incentives-for-availability}
+
+For researchers to take the extra effort to publish their data or their
+analysis code, there need to be incentives to do so. These incentives
+may be captured by a higher rate of citations or a reduced review time
+prior to publication. Unfortunately, neither incentive is observable in
+the papers we studied. Figure~\ref{fig-citations-1} shows the citations
+per year for each paper organized by paper acceptance date in SCOPUS and
+data availability, and Figure~\ref{fig-citations-2} the same information
+by code availability. In neither case are the average citation rates
+different based on the availability of data or code. The average
+citation rate for papers that provided both a data repository and a
+citation to existing data was elevated in 2020 and 2021; this effect was
+primarily driven by two heavily-cited papers accepted in 2020 that
+shared data and a citation to existing data. The overall citation rate
+for papers sharing both a data repository and a citation to existing
+data has returned to a similar rate as the rate for papers that do not
+share data in the intervening years.
+
+In terms of review time, there was no difference in mean time for papers
+based on data sharing practice. There was, however, a statistically
+meaningful \emph{increase} in the time to review papers that shared code
+repositories based on a \(t\)-test of the difference in mean review
+time. We observed a 95\% confidence interval between 1 and 27 days
+longer for papers with a code repository than papers that did not share
+a code repository based on a \(t\)-test of the difference in mean review
+time.
+
+\begin{figure}
+
+\centering{
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{rrmeasures-paper_files/figure-pdf/fig-citations-1.pdf}}
+
+}
+
+\subcaption{\label{fig-citations-1}Citations per year by data sharing
+practice.}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{rrmeasures-paper_files/figure-pdf/fig-citations-2.pdf}}
+
+}
+
+\subcaption{\label{fig-citations-2}Citations per year by code sharing
+practice.}
+
+}
+
+\caption{\label{fig-citations}Citations per year of each paper over time
+by code and data-sharing practice, with a LOESS moving average line
+applied for mean comparison.}
+
+\end{figure}%
+
+\subsection{Temporal, topic, and journal trends of data and code
+availability}\label{temporal-topic-and-journal-trends-of-data-and-code-availability}
+
+Figure~\ref{fig-temporal-trends} shows the temporal trend of data
+availability by journal in Figure~\ref{fig-temporal-trends-1}, and the
+temporal trend of code availability by journal in
+Figure~\ref{fig-temporal-trends-2}. As to data availability, there is a
+slight positive trend in the percent of papers that include a data
+repository, but there is a somewhat negative trend in the percent of
+papers using cited data.
+
+\begin{figure}
+
+\centering{
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{rrmeasures-paper_files/figure-pdf/fig-temporal-trends-1.pdf}}
+
+}
+
+\subcaption{\label{fig-temporal-trends-1}Data availability by journal
+over time.}
+
+\centering{
+
+\pandocbounded{\includegraphics[keepaspectratio]{rrmeasures-paper_files/figure-pdf/fig-temporal-trends-2.pdf}}
+
+}
+
+\subcaption{\label{fig-temporal-trends-2}Code availability by journal
+over time.}
+
+}
+
+\caption{\label{fig-temporal-trends}Temporal trends of data and code
+availability.}
+
+\end{figure}%
 
 
 \bibliography{main.bib}
