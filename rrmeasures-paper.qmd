@@ -122,6 +122,8 @@ papers <- read_csv("data/10k_final/papers_cleaned_with_new_columns.csv") |>
         'Availability statement is present', 'Availability statement is not present'),
     ) 
 
+# write_rds(papers, "data_explorer/paper_data.rds")
+
 n_open <- papers |>
   filter(is_open_access == 'Open access') |>
   nrow()
@@ -166,6 +168,7 @@ ds <- papers |>
     `Paper topic` = lda_topic, 
     `Links to code repositories` = code_links, 
   )
+
     
 datasummary_balance(~ is_code_available,
   data = ds, dinm = FALSE, 
