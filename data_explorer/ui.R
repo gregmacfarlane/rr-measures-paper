@@ -4,7 +4,7 @@ library(shiny)
 ui <- fluidPage(
   
   # Application title
-  titlePanel("Data Explorer"),
+  titlePanel("Transportation Research Paper Explorer"),
   
   # Sidebar with controls
   sidebarLayout(
@@ -33,7 +33,7 @@ ui <- fluidPage(
         condition = "output.is_numeric == true",
         plotOutput("histogram")
       ),
-      
+
       # Conditional output: Cross-tabulation for categorical variables
       conditionalPanel(
         condition = "output.is_numeric == false",
@@ -41,7 +41,11 @@ ui <- fluidPage(
       ),
       
       # Output: Statistical test results
-      tableOutput("test_results")
+      tableOutput("test_results"),
+
+      # Output: test notes
+      textOutput("test_notes")
+
     )
   )
 )

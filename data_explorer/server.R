@@ -2,6 +2,7 @@ library(shiny)
 library(readr)
 library(rstatix)
 library(dplyr)
+library(tidyr)
 library(ggplot2)
 
 # Load data
@@ -13,8 +14,23 @@ is_numeric_var <- function(df, var_name) {
   is.numeric(var) || is.integer(var)
 }
 
+make_crosstab <- function(df, independent_var, dependent_var) {
+  df %>%
+    group_by(!!sym(independent_var), !!sym(dependent_var)) %>%
+    summarise(n = n())  |>
+    pivot_wider(names_from = !!sym(dependent_var), values_from = n)
+}
+
+make_chisq_test <- function(df, independent_var, dependent_var) {
+  t <- table(df[[independent_var]], df[[dependent_var]])
+  pairwise_prop_test(t) |> select(group1, group2, p.adj)  |> 
+  pivot_wider(names_from = group1, values_from = p.adj)
+}
+
 server <- function(input, output, session) {
-  
+
+
+
   # Update independent variable choices based on available columns
   # Exclude dependent variable options and keep only non-dependent variables
   observe({
@@ -48,6 +64,19 @@ server <- function(input, output, session) {
     }
     
     paste("Variable Type:", var_type)
+  })
+
+  # Reactive value to track test notes
+  output$test_notes <- renderText({
+    if (is.null(input$independent_var) || input$independent_var == "") {
+      return("Please select an independent variable.")
+    }
+    if (is_numeric_var(data, input$independent_var)) {
+      return("T-test of difference in means between groups.")
+    }
+    else {
+      return("Pairwise proportion test of difference in proportions between groups: adjusted p-values are shown.")
+    }
   })
   
   # Create histogram for numeric independent variables
@@ -85,15 +114,8 @@ server <- function(input, output, session) {
     if (is_numeric_var(data, input$independent_var)) {
       return(NULL)
     }
-    
-    # Filter out missing values
-    plot_data <- data %>%
-      select(all_of(c(input$dependent_var, input$independent_var))) %>%
-      filter(!is.na(.data[[input$dependent_var]]),
-             !is.na(.data[[input$independent_var]]))
-    
-    # Create cross-tabulation
-    table(plot_data[[input$independent_var]], plot_data[[input$dependent_var]])
+    # make cross-tabulation table
+    make_crosstab(data, input$independent_var, input$dependent_var)
   }, rownames = TRUE)
   
   # Perform statistical tests
@@ -123,10 +145,7 @@ server <- function(input, output, session) {
       # Perform chi-squared test using rstatix
       tryCatch({
         # Use rstatix::chisq_test with formula interface
-        formula_str <- paste(input$dependent_var, "~", input$independent_var)
-        chi2_result <- test_data %>%
-          chisq_test(as.formula(formula_str))
-        return(chi2_result)
+        return(make_chisq_test(test_data, input$dependent_var, input$independent_var))
       }, error = function(e) {
         return(data.frame(Error = paste("Error performing chi-squared test:", e$message)))
       })
